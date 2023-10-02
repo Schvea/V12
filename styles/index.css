@@ -1,3 +1,18 @@
+/*.head {
+    transform: translate(-50%);
+}
+
+.works {
+    transform: translatex(80%);
+}
+
+.services {
+    transform: translatex(130%);
+}
+
+.contacts {
+    transform: translatex(200%);
+}*/
 h1 {
   font-family: "Poppins", sans-serif;
   color: #242635;
@@ -54,11 +69,11 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 420px;
+  max-width: 380px;
   width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .recipes {
@@ -81,4 +96,25 @@ nav {
   display: flex;
   -webkit-transform: translatey(-10%);
           transform: translatey(-10%);
+}
+
+@media screen and (max-width: 570px) {
+  .works {
+    display: none;
+  }
+}
+@media screen and (max-width: 570px) {
+  .services {
+    display: none;
+  }
+}
+@media screen and (max-width: 570px) {
+  .contacts {
+    display: none;
+  }
+}
+@media screen and (min-width: 570px) {
+  .three-dots {
+    display: none;
+  }
 }

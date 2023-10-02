@@ -1,3 +1,18 @@
+/*.head {
+    transform: translate(-50%);
+}
+
+.works {
+    transform: translatex(80%);
+}
+
+.services {
+    transform: translatex(130%);
+}
+
+.contacts {
+    transform: translatex(200%);
+}*/
 h1 {
     font-family: 'Poppins', sans-serif;
     color: #242635;
@@ -20,7 +35,6 @@ h1 {
     line-height: 33px;
 }
 
-.recipes {}
 
 .soup {
     max-width: 576px;
