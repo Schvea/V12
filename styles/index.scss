@@ -14,13 +14,29 @@ nav {
     max-width: 1200px;
     width: 100%;
     display: flex;
-}
-.works
 
+}
+.links{
+    display: flex;
+    transform: translatex(0%);
+}
+/*
+.head{
+    transform: translate(280%);
+}
+.works{
+    transform: translate(500%);
+}
+.services{
+    transform: translate(450%);
+}
+.contacts{
+    transform: translate(500%);
+}*/
 .recipes {
     max-width: 410px;
     width: 100%;
-    min-height: 300px;
+    min-height: 500px;
     height: 100%;
     display: flex;
     flex-direction: column;
