@@ -54,23 +54,13 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-transform: translatex(0%);
-          transform: translatex(0%);
+  max-width: 420px;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-/*
-.head{
-    transform: translate(280%);
-}
-.works{
-    transform: translate(500%);
-}
-.services{
-    transform: translate(450%);
-}
-.contacts{
-    transform: translate(500%);
-}*/
 .recipes {
   max-width: 410px;
   width: 100%;

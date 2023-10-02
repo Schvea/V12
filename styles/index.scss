@@ -16,23 +16,15 @@ nav {
     display: flex;
 
 }
-.links{
+
+.links {
     display: flex;
-    transform: translatex(0%);
+    max-width: 420px;
+    width: 100%;
+    justify-content: center;
+
 }
-/*
-.head{
-    transform: translate(280%);
-}
-.works{
-    transform: translate(500%);
-}
-.services{
-    transform: translate(450%);
-}
-.contacts{
-    transform: translate(500%);
-}*/
+
 .recipes {
     max-width: 410px;
     width: 100%;
