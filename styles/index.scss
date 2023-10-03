@@ -41,7 +41,7 @@ nav {
     transform: translatey(-10%);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 1004px) {
     .works {
         display: none;
     }
@@ -72,6 +72,20 @@ nav {
 
 @media screen and (max-width: 570px) {
     .three-dots {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .link-items {
+        display: none;
+    }
+
+    .link-items-two {
+        display: none;
+    }
+
+    .link-items-three {
         display: none;
     }
 }
