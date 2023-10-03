@@ -98,18 +98,36 @@ nav {
           transform: translatey(-10%);
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 1004px) {
   .works {
     display: none;
   }
-}
-@media screen and (max-width: 570px) {
   .services {
+    display: none;
+  }
+  .contacts {
     display: none;
   }
 }
 @media screen and (max-width: 570px) {
-  .contacts {
+  .link-items {
+    display: none;
+  }
+  .link-items-two {
+    display: none;
+  }
+  .link-items-three {
+    display: none;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .link-items {
+    display: none;
+  }
+  .link-items-two {
+    display: none;
+  }
+  .link-items-three {
     display: none;
   }
 }
