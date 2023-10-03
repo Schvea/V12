@@ -41,12 +41,21 @@ nav {
     transform: translatey(-10%);
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (max-width: 1000px) {
     .works {
+        display: none;
+    }
+
+    .services {
+        display: none;
+    }
+
+    .contacts {
         display: none;
     }
 }
 
+/*
 @media screen and (max-width: 1000px) {
     .services {
         display: none;
@@ -58,12 +67,7 @@ nav {
         display: none;
     }
 }
-
-@media screen and (min-width: 570px) and (max-width: 800px) {
-    .link-items {
-        display: none;
-    }
-}
+*/
 
 
 @media screen and (max-width: 570px) {
